@@ -1,0 +1,55 @@
+body {
+    background-color: lightblue;
+}
+
+#calculator{
+    min-width: 400px;
+    font-size: xxx-large;
+    width: 25%;
+    height: 500px;
+    background-color: silver;
+    margin: 20px auto;
+    padding: 40px;
+
+}
+
+#display {
+    font-family: system-ui;
+    background-color: greenyellow;
+    padding: 5px;
+    color: black;
+    margin: auto;
+    width: auto;
+    height: 80px;
+    
+}
+
+#buttons {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    gap: 1px;
+}
+
+button {
+    height: 75px;
+    width: 24.8%;
+    font-size: 28px;
+    font-weight: 900;
+    font-family: monospace;
+    border: 0;
+}
+
+button.number {
+    background-color: lightgray;
+}
+
+button.rem {
+    background-color: crimson;
+}
+
+button.op,
+button#equal {
+    background-color: cadetblue;
+    color: white;
+}
